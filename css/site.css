@@ -1,0 +1,105 @@
+/******************** RALEWAY FONT ********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/******************** CSS GENERAL ********************/
+
+:root {
+    --green: #6DC82A;
+    --brown: #AA6100;
+}
+
+body {
+    margin: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid var(--green);
+    margin-bottom: 40px;
+}
+
+.nav-logo {
+    margin: 0;
+}
+
+.a-logo:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-size: 23px;
+    margin-top: 22px;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    margin: 12px;
+    width: 50px;
+}
+
+nav ul {
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 28px 40px 25px 0;
+}
+
+nav ul li a:hover {
+    color: var(--green);
+}
+
+footer {
+    margin-top: 60px;
+}
+
+/******************** CSS GALERÍA DE IMÁGENES ********************/
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+    padding: 5px;
+    filter: grayscale(50%);
+}
+
+.galeria img:hover {
+    filter: none;
+    transform: scale(0.9)
+}
+
+/******************** CSS ABOUT.HTML ********************/
+
+#info {
+    text-align: center;
+}
+
+#info img {
+    width: 300px;
+    margin-top: 4%;
+    border-radius: 50%;
+}
+
+#info p {
+    margin: 13px 0 0;
+    font-size: 16px;
+}
